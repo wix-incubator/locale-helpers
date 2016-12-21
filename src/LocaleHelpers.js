@@ -5,8 +5,8 @@ import * as Locales from './Locales'
 import * as Languages from './Languages'
 import _ from 'lodash'
 
-export const bestLocaleFor = ({language, countryCode}) => {
-	const locale = `${language}_${countryCode}`
+export const bestLocaleFor = ({language, country = 'ZZ'}) => {
+	const locale = `${language}_${country}`
 	
 	// For valid locales, just return the locale
 	if (_.includes(Locales.all, locale)) {

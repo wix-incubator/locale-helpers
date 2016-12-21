@@ -6,7 +6,7 @@ Infers the best valid locale for a given language/country combination.
 
 Sometimes the locale is simply the language/country combination, e.g. ```en``` + ```US``` = ```en_US```.
 
-However, ```it``` + ```FR``` ≠ ```it_FR``` (as it is not a valid locale). A better option would be the valid ```it_IT```.
+However, ```it``` + ```FR``` ≠ ```it_FR``` (as it is not a valid locale). A better option is the valid ```it_IT```.
 
 ### Usage
 Install the library with `npm install locale-helpers`

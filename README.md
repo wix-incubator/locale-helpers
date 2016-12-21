@@ -12,7 +12,7 @@ However, ```it``` + ```FR``` ≠ ```it_FR``` (as it is not a valid locale). A be
 Install the library with `npm install locale-helpers`
 
 ```javascript
-var LocaleHelpers = require('locale-helpers');
+var LocaleHelpers = require('locale-helpers').LocaleHelpers;
 
 LocaleHelpers.bestLocaleFor({language: 'en', country: 'US'}); //-> 'en_US'
 LocaleHelpers.bestLocaleFor({language: 'fr', country: 'FR'}); //-> 'fr_FR'

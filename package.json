@@ -1,7 +1,7 @@
 {
   "name": "locale-helpers",
   "version": "1.0.0",
-  "description": "Infers the best locale given a country and a language Edit",
+  "description": "Infers the best valid locale given a language/country combination",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",

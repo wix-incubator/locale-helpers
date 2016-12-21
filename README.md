@@ -2,7 +2,7 @@
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
-Infers the best locale given a country and a language.
+Infers the best valid locale for a given language/country combination.
 
 Sometimes the locale is simply the language/country combination, e.g. ```en``` + ```US``` = ```en_US```.
 

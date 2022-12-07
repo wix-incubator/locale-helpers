@@ -341,6 +341,7 @@ export const all = [
 	'nl_SR',
 	'nl_SX',
 	'nn_NO',
+	'no_NO',
 	'om_ET',
 	'om_KE',
 	'or_IN',

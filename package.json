@@ -19,8 +19,8 @@
     "wix",
     "locales",
     "locale",
-	"language",
-	"languages"
+    "language",
+    "languages"
   ],
   "author": "Wix Restaurants",
   "license": "Apache-2.0",

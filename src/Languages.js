@@ -30,6 +30,7 @@ export const largestCountries = {
 	'nb': 'NO',
 	'ne': 'NP',
 	'nl': 'NL',
+	'no': 'NO',
 	'om': 'ET',
 	'os': 'GE',
 	'pa': 'IN',
